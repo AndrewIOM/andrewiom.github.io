@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Using pollen to map plant species occurrence through time: a D3.js example"
+date:   2016-01-30 10:36:17 +0000
+tags: Pollen d3.js
+---
+
+For the Global Pollen Project, I wanted to create an interactive map that integrates modern observations of plant species with evidence of their distribution in the past.
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.2.1/nouislider.min.css">
+<link rel="stylesheet" href="/projects/neotoma-map/style.css">
+
+<h4>Past Occurrences of <em>Betula</em></h4>
+<em>Colour scale from blue to yellow indicates the 'last seen date' at a location, with yellow the most recent.</em>
+<div id="neotoma-map"></div>
+<div id="range"></div>
+<input hidden="hidden" id="NeotomaId" value="29" />
+
+Modern occurrence data is relatively easy to access: the Global Biodiversity Information Facility (GBIF) provides an open API to developers to query occurrences of species. The GPP automatically assigns a GBIF taxon ID to each family, genus, and species.
+
+Obtaining past occurrence data using paleoecological / long-term ecological data was a bit more tricky. Neotoma is a great database for paleoecological data, including pollen, diatoms and ostracods. Neotoma also provides an open API, and calibrates the age-depth models of sedimentary data, meaning that the dates given to the presence of taxa are more reliable. Using pollen data from Neotoma, it is possible to plot distributions through time.
+
+There are some issues when comparing the modern observations from GBIF to pollen presence in Neotoma data.
+
+First, Neotoma does not return recursive results up the taxonomic heirarchy. For example, if a pollen grain is identified as a Betula, this grain will not be returned when searching the API for Betuleacae. GBIF, on the other hand, has a solid taxonomic backbone and accounts for heirarchical relations. 
+
+Second, the presence of pollen is not just reliant on the presence of a taxon, but also on the preservation characteristics of the grain, the environment in which it was deposited, and the ability to distinguish this grain from others, at family, genus and species resolutions. There are also radically different spatial patterns of sampling effort between modern observations and sediment core data. 
+
+Third, the palaeoecological data is sorted by 'pollen types', rather than linked to botanical species designations. The interpretation in these maps therefore contains certain assumptions about the relations between pollen morphology and species. 
+
+The example on this page just plots the Neotoma pollen data. Check out the code at [my GitHub repo].
+
+[my GitHub repo]: http://github.com/AndrewIOM
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://raw.githubusercontent.com/leongersen/wnumb/master/wNumb.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.2.1/nouislider.js"></script>
+<script src="/projects/neotoma-map/app.js"></script>

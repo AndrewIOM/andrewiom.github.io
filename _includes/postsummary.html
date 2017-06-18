@@ -9,7 +9,7 @@
               </span>
             </span>
             <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-            {% if post.thumbnail %}<figure class="post-thumbnail-container"><img class="post-thumbnail" src="{{ post.thumbnail }}"/>{% if post.thumbnail_caption %}<figcaption style="display:none">{{ post.thumbnail_caption }}</figcaption>{% endif %} </figure>  {% endif %}
+            {% if post.thumbnail %}<figure class="post-thumbnail-container"><img class="post-thumbnail" src="{{ post.thumbnail | prepend: site.baseurl }}"/>{% if post.thumbnail_caption %}<figcaption style="display:none">{{ post.thumbnail_caption }}</figcaption>{% endif %} </figure>  {% endif %}
           </header>
           <section class="post-excerpt">
               <div class="post-summary">

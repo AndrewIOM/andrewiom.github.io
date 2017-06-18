@@ -14,7 +14,15 @@
     max-height: 10em;
 
     .post-thumbnail {
-        
+        transform: translate(0px, -25%);
     }
+}
 
+.post-topimage-container {
+    margin: 0;
+    max-width: 100%;
+
+    .post-thumbnail {
+        transform: none;
+    }
 }

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "The Ancient Lake that Fertilises the Amazon"
+date:   2014-11-11 10:36:17 +0000
+tags: Holocene Palaeoenvironments
+thumbnail: "/media/saharan-dust.png"
+thumbnail_caption: "Dust from the Sahara makes its way towards America, June 2010. By Jeff Schmaltz (NASA Earth Observatory) [Public domain], via Wikimedia Commons"
+---
+
+The Amazon Rainforest is one of Earth's most biodiverse locations, and recent evidence suggests that it is tightly coupled to one of the most barren. Using satellite observations, Saharan dust storms have been tracked across the Atlantic to the Caribbean and South America. A unique combination of geological and climatic drivers has created these conditions, which are hypothesised to transport essential nutrients to the Amazon.
+
+## An Algal Fertiliser
+
+The Sahara Desert has not always been barren, but was wet at various times between approximately 4,200 and 12,000 years ago. Fossil pollen provides evidence of diverse tropical plant communities, while fossil lakes, rivers and fish show a network of ancient watercourses and lakes. During these pluvial phases, the filling aquifers enabled the formation of Lake Megachad, a lake with a surface area of around 400,000 square kilometres at its peak. As the basin is relatively flat, the lake was able to expand and detract rapidly, and now Lake Chad is only 1,350 kilometres squared. The lake was teaming with algal life. Diatoms are one of the most common groups of phytoplankton, and were present in large quantities in Lake Megachad. When it dried up, it left behind thick deposits of freshwater diatom shells, which hardened to form diatomite. This substance is rich in phosphorous, an essential plant macronutrient, as well as iron.
+The northern section of Lake Megachad is often termed the Bodélé depression, and is responsible for 95% of the Saharan dust exported to the Atlantic. The geological layout of the region creates a wind tunnel into the depression between the Tibesti and Ennedi mountain ranges, whipping up huge dust storms of light, fertile diatomite. The dust is so fine that it can be carried out across the Canary Islands and beyond, over the Caribbean and even as far as the Amazon.
+
+The export of nutrient-rich dust has implications for the productivity of the Amazon Rainforest, as well as complex cloud-seeding properties for weather systems. In the Amazon, intense competition between plants causes nutrients to be cycled from soil matter quickly, leaving a relatively nutrient- poor soil. The Amazon is also home to some of Earth’s oldest soils, as the tropics have not been glaciated like mid- and high-latitudes. This creates a phosphorous-limited ecosystem, as this macronutrient is obtained from breaking down underlying rock. The Saharan dust is suspected to have ‘fertilised’ the Amazon, providing a steady covering of phosphorous and iron-rich dust, supporting biomass and biodiversity.
+
+## Dust: Past, Present and Future
+
+There are many unanswered questions regarding the transport of dust to the Amazon, including the nature of fertilisation and the resilience of any beneficial effects to climate change. For climate scientists, how will rainfall vary during the 21st century, and how will this affect dust transport? Since the 1970s, there was concern that large-scale desertification was taking place in Africa. However, recent research suggests that there has been a regionally variable pattern of greening and desertification, while climate models cannot agree on a future trajectory. The nutrient flow also requires full characterisation, to determine the relative importance of this nutrient flow to the Amazon’s health. It has been suggested that, if Lake Chad was to expand towards its past extent, the export of dust from the Bodélé depression could be hindered, and that this would cause lesser productivity and ‘dieback’ of the Amazon. However, the Amazon did not ‘die back’ during the Holocene Saharan pluvial phases. To fully understand this system, collaboration between biodiversity scientists, geographers and climate scientists will be required.
+For more information on this topic, have a look at my sources: African dust keeps Amazon blooming, Shorelines in the Sahara and the Oxford Drylands Group.
