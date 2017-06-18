@@ -1,0 +1,20 @@
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $gray;
+        margin-top: 0.2em;
+    }
+}
+
+.post-thumbnail-container {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    max-height: 10em;
+
+    .post-thumbnail {
+        
+    }
+
+}

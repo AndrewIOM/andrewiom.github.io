@@ -1,0 +1,28 @@
+<div class="sidebar" role="aside" style="background-image: url(/media/{{ site.sidebar_background }})">
+			<header class="header">
+				<a href="/">
+					<img id="blog" class="logo" src="/media/{{ site.profile_pic }}">
+				</a>
+				<h1 class="title"><a href="/">Andrew C. Martin</a></h1>
+				<p class="description">{{ site.description }}</p>
+				<!--{% for my_page in site.pages %}
+          			{% if my_page.title %}
+					  <span> | </span><a class="page-link" style="text-decoration: none" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+					{% endif %}
+				{% endfor %}-->
+				</span><a class="page-link" style="text-decoration: none" href="{{ "/" | prepend: site.baseurl }}">Posts</a>
+				<span> | </span>
+				</span><a class="page-link" style="text-decoration: none" href="{{ "/projects.html" | prepend: site.baseurl }}">Projects</a>
+				<span> | </span>
+				</span><a class="page-link" style="text-decoration: none" href="{{ "/publications.html" | prepend: site.baseurl }}">Publications</a>
+
+				<div class="social-icons">
+                    <a href="https://oxlel.zoo.ox.ac.uk/people/andrew-c-martin" target="_blank">Ox</a>	                
+					<a href="https://github.com/AndrewIOM" class="icon icon-github" target="_blank"></a>
+					<a href="https://twitter.com/iomandrew" class="icon icon-twitter" target="_blank"></a>
+					<a href="/feed.xml" class="icon-rss" target="_blank"></a>
+					<a href="mailto:andy@acm.im" class="icon-mail"></a>
+				</div>
+
+			</header>
+		</div>

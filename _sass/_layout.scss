@@ -1,0 +1,160 @@
+
+body {
+    font-size: 1em;
+}
+
+main {
+    width: 100% !important;
+}
+
+.sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+    line-height: 1.8em;
+	background: $sidebar-background-colour no-repeat center center;
+	background-size: cover;
+	background-position: 20%;
+	-webkit-transform: translateZ(0);
+    margin-bottom: 1em;
+
+	.title {
+		font-size: 30px;
+		color: white;
+		text-decoration: none;
+        margin-top: 0;
+	}
+    
+    .separator {
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+	.description {
+		margin-bottom: 10px;
+	}
+
+	a {
+		color: white;
+		&:hover {
+			color: $linkColor;
+		}
+	}
+    
+    .logo {
+        display: block;
+        width: 66%;
+        border-radius: 50%;
+        max-width: $sidebarWidth;
+        height: auto;
+        background-size: contain;
+        margin: 0 auto 0.5em auto;
+        background: no-repeat;
+        margin-top: 0;
+        width: 100px;
+        height: 100px;
+	}
+
+	.social-icons {
+		margin-top: 10px;
+        
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+	}
+
+	.icon {
+		font-size: 18px;
+    }
+}
+    
+.page-content {
+    margin-left: 0;
+    max-width: 100%;
+    width:100%;
+    padding-left:0;
+    padding-right:0;
+    
+    .post {
+        border-radius: 0;
+        padding: 1em 0;
+        
+        header {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        
+        .post-summary {
+            padding-left: 1em;
+            padding-right: 1em;      
+        }
+    
+        .post-footer {
+            padding-left: 1em;
+            padding-right: 1em;       
+        }
+        
+        .post-content {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    }
+}
+
+@media all and (min-width: 800px) {
+    body {
+        font-size: 1.2em;
+    }
+    
+    .page-content {
+        max-width: 90%;
+        margin-left: $sidebarWidth;    
+        padding: 1em 0;
+        width: auto;
+        
+        .post {
+            padding: 2em;
+            border-radius: 0.15em;
+            border-top: 0.4em solid $primary-highlight;
+            
+            .post-header {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .post-summary {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+    
+    .sidebar {
+        position: fixed;
+        width: $sidebarWidth;
+        height: 100%;
+        padding: 50px 20px 20px 20px;
+        
+        .logo {
+            width: 130px;
+            height: 130px;
+        }
+    }
+    
+    .title {
+        margin-top:0.4em;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .content {
+        max-width: 70%;
+    }
+}
+
+// NEW HEADER ELEMENT
+
