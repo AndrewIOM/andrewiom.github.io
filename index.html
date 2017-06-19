@@ -5,7 +5,7 @@ title: Posts
 
   <div class="row">
     <div class="one-half column">
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}
         {% capture thecycle %}{% cycle 'group 1': 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
           {% include postsummary.html content=post %} 
@@ -13,7 +13,7 @@ title: Posts
       {% endfor %}
     </div>
     <div class="one-half column">
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}
         {% capture thecycle %}{% cycle 'group 2': 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'even' %}
           {% include postsummary.html content=post %} 
