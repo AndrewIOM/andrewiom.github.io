@@ -16,6 +16,8 @@ Martin, A. C., and Harvey, W. J. (2017), The Global Pollen Project: A New Tool f
 ### Preprints
 Preprints are publications that have yet to go to peer-review.
 
+Martin, A.C. (2019), “Bristlecone: An F# library for model-fitting and model-selection of ecological time-series data”, OSF Preprints, 6 September, available at:[https://doi.org/10.31219/osf.io/zt2wn](https://doi.org/10.31219/osf.io/zt2wn).
+
 Martin, A.C., 2018. Rural Manx vernacular buildings are not protected by planning policy: an evidence-informed approach reveals inconsistency in policy application and assessment. doi:[10.17605/OSF.IO/7N9BD](https://doi.org/10.17605/OSF.IO/7N9BD)
 
 ### Software and Data
