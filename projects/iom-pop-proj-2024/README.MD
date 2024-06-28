@@ -1,0 +1,1 @@
+The full method and data for the population projection will be available shortly.
